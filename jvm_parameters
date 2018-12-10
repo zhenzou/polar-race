@@ -1,0 +1,1 @@
+-server -Xms2304m -Xmx2304m -Xmn1G -XX:MaxDirectMemorySize=128m -XX:MaxMetaspaceSize=128m -XX:SurvivorRatio=18 -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=98 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -XX:-UseBiasedLocking -XX:+PrintGCTimeStamps -XX:+PrintGCDetails
